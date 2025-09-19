@@ -15,7 +15,6 @@ A modern, interactive Japanese learning platform built with Next.js, featuring c
 - **Romaji Pronunciation**: Every reading includes romaji for pronunciation guidance
 - **JLPT Levels**: Filter by JLPT N5-N1 difficulty levels
 - **School Grades**: Study by Japanese school grade levels (1-6 + Junior/High School)
-- **Karaoke-Style Display**: Beautiful visual presentation of readings
 
 ### 🚀 **Performance & UX**
 - **LocalStorage Caching**: Fast loading with 24-hour API response caching
@@ -41,7 +40,7 @@ A modern, interactive Japanese learning platform built with Next.js, featuring c
 
 ### Prerequisites
 - Node.js 18+ 
-- npm, yarn, pnpm, or bun
+- bun
 
 ### Installation
 
@@ -64,11 +63,7 @@ NEXT_PUBLIC_KANJI_API_BASE=https://your-kanji-api-endpoint
 
 4. **Run the development server**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+bun dev
 ```
 
 5. **Open your browser**
