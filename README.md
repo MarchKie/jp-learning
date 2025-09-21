@@ -27,13 +27,20 @@ A modern, interactive Japanese learning platform built with Next.js, featuring c
 - **Progress Visualization**: See completed vs remaining characters
 - **Performance Feedback**: Encouraging messages based on accuracy
 
+### 🤖 **AI-Powered Vocabulary Assistant**
+- **Gemini Chatbot**: Ask questions about Japanese vocabulary in real-time
+- **Floating Chat Interface**: Convenient chat button for instant help
+- **Contextual Learning**: Get detailed explanations about word usage, pronunciation, and examples
+- **Thai Language Support**: Ask questions in Thai and get helpful responses
+
 ## 🛠️ **Technology Stack**
 
 - **Frontend**: Next.js 14, React 18, TypeScript
-- **Styling**: Tailwind CSS with custom gradients and animations
+- **Styling**: Tailwind CSS with DaisyUI components
 - **State Management**: Custom React hooks for quiz logic
 - **Caching**: LocalStorage with expiration for API responses
 - **API Integration**: External Kanji API with fallback data
+- **AI Integration**: Google Gemini API for vocabulary assistance
 - **Build Tool**: Next.js with TypeScript support
 
 ## 🚀 **Getting Started**

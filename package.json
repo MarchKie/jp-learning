@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/google": "^2.0.14",
+    "@google/generative-ai": "^0.24.1",
     "daisyui": "^5.1.13",
     "next": "15.5.3",
     "react": "19.1.0",
